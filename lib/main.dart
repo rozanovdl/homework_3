@@ -40,7 +40,7 @@ class MyHomePage extends StatelessWidget {
             child: CarouselSlider(
           options: CarouselOptions(height: 400.0),
           items: [
-            'assets/images/bzr.svg',
+            'assets/images/bzr.svg',   //изображения для карусели
             'assets/images/android1.svg'
           ].map((i) {
             return Builder(
